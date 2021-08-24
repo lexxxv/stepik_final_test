@@ -3,6 +3,7 @@ from .locators import ProductPageLocators
 
 # pytest -v test_product_page.py
 
+
 class ProductPage(BasePage):
     def should_be_added_thing_in_basket(self):
         self.add_to_basket()
